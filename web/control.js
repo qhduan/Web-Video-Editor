@@ -34,7 +34,7 @@ $(() => {
 			connect: true,
 			range: {
 				'min': 0,
-				'max': this.duration
+				'max': 59.0 // this.duration
 			}
 		});
 		slider.noUiSlider.on('update', (range)=>{
